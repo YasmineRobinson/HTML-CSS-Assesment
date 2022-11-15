@@ -1,7 +1,7 @@
 # HTML-CSS-Assesment
 This  is a small project using HTML / CSS and Bootsrap. I will be using this to showcase my projects!
 
-[Live Heroku Deployment](https://portfolio-yasmine.herokuapp.com/)
+[Live Deployment](https://assesment-html-css.netlify.app/)
  
  
 ## Technologies used
