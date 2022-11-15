@@ -1,0 +1,111 @@
+/*******************************************
+*********Common
+****************************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+
+}
+
+span {
+    color: purple;
+}
+
+/*****************************************
+**********Header
+***********************************************/
+header {
+   display: flex;
+   justify-content: center;
+}
+
+/***********************************************
+***************Main
+************************************************/
+main {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+main .heading h1 {
+    color: rgb(34, 167, 224);
+}
+
+main .table-heading {
+    margin-top: 3rem;
+    padding: 0rem 1rem;
+}
+
+main table  {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+main table tr {
+    padding: 0.5rem 0.5rem;
+}
+
+main table td {
+    border: 1px solid #000;
+    padding: 0.5rem 0.5rem;
+}
+
+main .source {
+    margin: 2rem 0rem;
+    font-size: 0.8rem;
+}
+
+main .source .source-image {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/**********************************
+*************Media Screen
+********************************************/
+
+@media only screen and (max-width:640px) {
+    main table td {
+        font-size: 0.9rem;
+    } 
+}
+
+/***************************************
+****************Footer
+**************************************/
+footer .footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+footer .footer-info span {
+    color:rgb(34, 167, 224) ;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+}
+
+
+/**********************************
+*************Media Screen
+********************************************/
+
+@media only screen and (max-width:640px) {
+    footer .footer-info {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0rem 1rem;
+        gap: 1rem;
+    } 
+}
